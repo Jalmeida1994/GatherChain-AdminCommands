@@ -9,6 +9,6 @@ if curl --fail -X POST -H "Content-Type: application/json" -d "{\"Author\":\"000
 printf "Network launched!"
 else
 printf "Error launching the network."
-source commands/clear.sh ${1}
+#source commands/clear.sh
 fi;
 

@@ -15,6 +15,7 @@ IP=$(az vm show -d -g $[resourceGroupName] -n $[vMName] --query publicIps -o tsv
 ```
 ./commands/init.sh $IP
 ```
+It'll probably give a timeout error. Launching the blockchain can take some time. If you want you can ssh into the vm and run the command to initialize the blockchain yourself.
 
 4. You're ready to give the [Desktop App](https://github.com/Jalmeida1994/GatherChain-DesktopClient) to your students!
 
