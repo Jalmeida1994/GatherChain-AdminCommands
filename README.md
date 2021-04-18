@@ -23,3 +23,9 @@ It'll probably give a timeout error. Launching the blockchain can take some time
 ```
 ./commands/clear.sh
 ```
+
+### Get History from blockchain
+```
+./commands/history.sh
+```
+It works better if you ssh into the VM and run the get history command. Minifab outputs a lot.
