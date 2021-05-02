@@ -8,7 +8,7 @@
 
 2. Get the public IP of the VM:
 ```
-IP=$(az vm show -d -g $[resourceGroupName] -n $[vMName] --query publicIps -o tsv)
+IP=$(az vm show -d -g ${resourceGroupName} -n ${vMName} --query publicIps -o tsv)
 ```
 
 3. Initialize the blockchain network:
