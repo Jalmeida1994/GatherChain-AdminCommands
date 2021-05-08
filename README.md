@@ -17,7 +17,7 @@ IP=$(az vm show -d -g ${resourceGroupName} -n ${vMName} --query publicIps -o tsv
 ```
 It'll probably give a timeout error. Launching the blockchain can take some time. If you want you can ssh into the vm and run the command to initialize the blockchain yourself.
 
-4. You're ready to give the [Desktop App](https://github.com/Jalmeida1994/GatherChain-DesktopClient) to your students!
+4. You're ready to start configuring the [Desktop App](https://github.com/Jalmeida1994/GatherChain-DesktopClient) for your students.
 
 ### Delete the Blockchain Network
 ```
@@ -28,4 +28,4 @@ It'll probably give a timeout error. Launching the blockchain can take some time
 ```
 ./commands/history.sh
 ```
-It works better if you ssh into the VM and run the get history command. Minifab outputs a lot.
+It works better if you ssh into the VM and run the get history command. Minifab prints a lot of output.
