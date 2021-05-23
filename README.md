@@ -113,12 +113,12 @@ In this section it'll be shown how to get started with this solution. Only teste
    ```
    git clone https://github.com/Jalmeida1994/GatherChain-AdminCommands.git
    ```
-2. Change the weburl.env file with the URL of the WebApp instantiated during the GatherChain ARM Template phase.
+2. Change the [weburl.env](https://github.com/Jalmeida1994/GatherChain-AdminCommands/blob/master/.weburl.env) file with the URL of the WebApp instantiated during the GatherChain ARM Template phase.
     ```
     export WEB_URL=https://NameOfTheApp.azurewebsites.net
     ```
     The domain `azurewebsites` is only used if the GatherChain Template was deployed in Azure and if no custom domain was configured in the webapp.
-    
+
 3. Initialize the blockchain network:
     ```
     ./commands/init.sh 
