@@ -137,17 +137,17 @@ _For more information, please refer to the [Documentation](https://github.com/Ja
 <!-- USAGE EXAMPLES -->
 ### Clear the blockchain network
 
-    ```
-    ./commands/clear.sh
-    ```   
-    After clearing tou need to use the `init.sh` command to start the network again.
+```
+./commands/clear.sh
+```
+After clearing you need to use the [init.sh](https://github.com/Jalmeida1994/GatherChain-AdminCommands/blob/master/commands/init.sh) command to start the network again.
 
 ### Get history from blockchain
 
-In order to get the commit history for a group (${groupName}) you can use the command:
-```
-./commands/history.sh ${groupName}
-```
+In order to get the commit history for a group (`${groupName}`) you can use the command:
+    ```
+    ./commands/history.sh ${groupName}
+    ```
 It works better if you ssh into the VM and run the get history command. [Minifab](https://github.com/hyperledger-labs/minifabric) (the binary used to communicate with the network) prints a lot of output.
 
 
