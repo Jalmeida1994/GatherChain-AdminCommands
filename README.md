@@ -36,7 +36,7 @@
   <p align="center">
     Admin commands of the GatherChain solution.
     <br />
-    <a href="https://github.com/Jalmeida1994/GatherChain-AdminCommands/README.md"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Jalmeida1994/GatherChain-AdminCommands/blob/master/README.md"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Jalmeida1994/GatherChain-AdminCommands/issues">Report Bug</a>
