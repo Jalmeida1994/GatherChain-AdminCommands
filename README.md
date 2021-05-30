@@ -149,7 +149,7 @@ In order to get the commit history for a group (`${groupName}`) you can use the 
     ```
     ./commands/history.sh ${groupName}
     ```
-It works better if you ssh into the VM and run the get history command. [Minifab](https://github.com/hyperledger-labs/minifabric) (the binary used to communicate with the network) prints a lot of output.
+It works better if you ssh into the VM and run the get history command. [Minifabric](https://github.com/hyperledger-labs/minifabric) (the binary used to communicate with the network) prints a lot of output.
 
 
 <!-- ROADMAP -->
