@@ -119,9 +119,9 @@ In this section it'll be shown how to get started with this solution. Only teste
     ```
     The domain `azurewebsites` is only used if the GatherChain Template was deployed in Azure and if no custom domain was configured in the webapp.
 
-3. Initialize the blockchain network:
+3. Initialize the blockchain network with a parameter being the password configured during the [ARM deployment phase](https://github.com/Jalmeida1994/GatherChain-ARM-Template):
     ```
-    ./commands/init.sh 
+    ./commands/init.sh ${adminPassword}
     ```
     It'll probably give a timeout error. Launching the blockchain can take some time. WebApps in Azure have a timeout smaller than the time to initialize the blockchain network. Give it about 30 minutes to start. If you want you can ssh into the VM and run the command to initialize the blockchain yourself and check the progress.
    
@@ -137,8 +137,9 @@ _For more information, please refer to the [Documentation](https://github.com/Ja
 <!-- USAGE EXAMPLES -->
 ### Clear the blockchain network
 
+Use the command with a parameter being the password configured during the [ARM deployment phase](https://github.com/Jalmeida1994/GatherChain-ARM-Template)
 ```
-./commands/clear.sh
+./commands/clear.sh ${adminPassword}
 ```
 After clearing you need to use the [init.sh](https://github.com/Jalmeida1994/GatherChain-AdminCommands/blob/master/commands/init.sh) command to start the network again.
 
